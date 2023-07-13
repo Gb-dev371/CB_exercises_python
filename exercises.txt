@@ -1,0 +1,64 @@
+Aula 01:
+1 - Printe na tela o hello world
+2 - Pegue o nome do usuário e diga "olá"
+3 - Pegue dois números do usuário e mostre a soma deles
+4 - Mostre o antecessor e o sucessor de um número qualquer
+5 - Mostre na tela o dobro, a raiz quadrada e o triplo 
+6 - Calcule a média de um aluno
+7 - Crie uma tabuada de um número do usuário
+8 - Faça um programa que leia um número que diga se o número 
+é par ou ímpar
+
+Aula 02:
+9 - Pergunte a quantos reais o usuário possui e informe o 
+valor em dólar
+
+10 - Faça um programa que leia a altura e a largura 
+de uma parede e calcule sua área, mostre quantos litros 
+de tinta será necessário para pintar sabendo que 1l pinta 
+2m quadrados
+
+11 - Faça um programa que leia o preço de um produto 
+e retorne o seu preço com 5% de desconto
+
+12 - Calcule um aumento de 15% no salário de um funcionário
+
+13 - Crie um conversor de temperatura (ºC ºF K)
+
+14 - Faça um programa que leia a quantidade de dias e km 
+rodados por um carro alugado, depois calcule o valor do contrato 
+sabendo que cada dia custa 60 reais e cada km custa 15 centavos
+
+Aula 03:
+15 - Crie um programa que leia um número real qualquer pelo 
+teclado e mostre na tela sua porção inteira
+16 - Leia o comprimento do cateto oposto e do cateto adjacente 
+de um triângulo retângulo. Calcule e mostre o comprimento da 
+hipotenusa.
+17 - Leia um ângulo qualquer e mostre na tela o valor do 
+seno, cosseno e tangente desse ângulo
+18 - Faça um programa que leia o nome de 4 alunos e escreva na 
+tela o nome do escolhido para apagar o quadro
+19 - Agora, sorteie uma ordem aleatória de 4 alunos. 
+Leia o nome dos alunos e mostre a ordem aleatória.
+DESAFIO:
+20 -
+
+Aula 04:
+21 - Crie um jogo que faça o computador pensar em um número 
+de 0 a 5 e permita o usuário ter um chute para acertar
+22 - Faça um programa que verifique se o número digitado é par
+23 - Faça um programa que leia a quilometragem de um carro, 
+caso esteja acima dos 80km/h, multe o carro
+24 - Faça um programa que leia a distância em km de uma viagem, 
+se a distância for menor ou igual a 200km, cobre 50 centavos 
+por km rodado. Caso contrário, cobre 45 centavos.
+25 - Faça um programa que leia 3 valores e diga 
+o maior e o menor valor.
+26 - Escreva um código que pergunte o salário de um funcionário 
+e dê um aumento de 15% caso o salário for maior que 1250 reais. 
+Caso contrário, 10%.
+27 - Faça um programa que leia 3 retas do usuário e diga se elas podem formar um triângulo.
+
+#Só irá existir um triângulo se e somente se os seus lados obedecerrem à seguinte regra:
+# um de seus lados deve ser maior que o valor absoluto da diferença dos outros dois lados e menor que a soma dos outros dois lados
