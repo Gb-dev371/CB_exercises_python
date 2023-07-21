@@ -42,7 +42,7 @@ tela o nome do escolhido para apagar o quadro
 19 - Agora, sorteie uma ordem aleatória de 4 alunos. 
 Leia o nome dos alunos e mostre a ordem aleatória.
 DESAFIO:
-20 -
+20 - Faça um programa que toque um áudio no formato mp3.
 
 Aula 04:
 21 - Crie um jogo que faça o computador pensar em um número 
@@ -60,22 +60,79 @@ e dê um aumento de 15% caso o salário for maior que 1250 reais.
 Caso contrário, 10%.
 27 - Faça um programa que leia 3 retas do usuário e diga se elas podem formar um triângulo.
 
-#Só irá existir um triângulo se e somente se os seus lados obedecerrem à seguinte regra:
-# um de seus lados deve ser maior que o valor absoluto da diferença dos outros dois lados e menor que a soma dos outros dois lados
 
 Aula 05:
 28 - Escreva um programa para aprovar o empréstimo bancária para a compra de uma casa. Pergunte o valor da casa, o salário de comprador e 
 em quantos anos ele vai pagar. A prestação mensal não pode exceder 30% do salário ou o empréstimo será negado.
+
 29 - Escreva um programa em Python que leia um número inteiro qualquer
 e peça para o usuário escolher qual será a base de conversão: 1 para decimal, 2 para octal e 3 para hexadecimal.
+
 30 - Escreva um programa que leia dois números inteiros e compare-os mostrando na tela uma mensagem:
-O primeiro valor é maior
-O segundo valor é maior
-Não existe valor maior, os dois são iguais
+O primeiro valor é maior.
+O segundo valor é maior.
+Não existe valor maior, os dois são iguais.
+
 31 - Faça um programa que leia o ano de nascimento de um jovem e informe, de acordo com a sua idade, 
 se ele ainda vai se alistar ao serviço militar, se é a hora exata de se alistar ou se já passou do tempo de alistamento. 
 Seu programa também deverá mostrar o tempo que falta ou que passou do prazo.
+
 32 - Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com a média atingida:
 Média abaixo de 5.0: REPROVADO
 Média entre 5.0 e 6.9: RECUPERAÇÃO
 Média 7.0 ou superior: APROVADO
+
+33 - A Confederação Nacional de Natação precisa de um programa que leia o ano de 
+nascimento de um atleta e mostre sua categoria, de acordo com a idade:
+Até 9 anos: MIRIM
+Até 14 anos: INFANTIL
+Até 19 anos: JÚNIOR
+Até 25 anos: SÊNIOR
+Acima de 25 anos: MASTER
+
+34 - Refaça o desafio 035 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
+EQUILÁTERO: todos os lados iguais
+ISÓSCELES: dois lados iguais, um diferente
+ESCALENO: todos os lados diferentes
+
+35 - Desenvolva uma lógica que leia o peso e a altura de uma pessoa,
+calcule seu índice de Massa Corporal (IMC) e mostre seu status,
+de acordo com a tabela abaixo:
+IMC abaixo de 18,5: Abaixo do peso
+Entre 18,5 e 25: Peso Ideal
+25 até 30: Sobrepeso
+30 até 40: Obesidade
+Acima de 40: Obesidade Mórbida
+
+36 - Elabore um programa que calcule o valor a ser pago por um produto,
+considerando o seu preço normal e condição de pagamento:
+à vista dinheiro/cheque: 10% de desconto
+à vista no cartão: 5% de desconto
+em até 2x no cartão: preço normal
+3x ou mais no cartão: 20% de juros
+
+DESAFIO:
+37 - Faça o jogo "pedra, papel e tesoura".
+
+
+Aula 06:
+38 - Faça um programa que mostre uma contagem regressiva de 10 até 0
+39 - Monte um algoritmo para printar na tela todos os números pares de 1 a 50
+40 - Desenvolva um programa que calcule a soma de todos os números de três entre 1 e 500
+41 - Faça uma tabuada
+42 - Crie um programa que receba 5 valores int e no final mostre a soma apenas dos pares
+43 - Leia o primeiro termo e a razão de uma PA. Depois, mostre os 20 primeiros termos.
+44 - Monte um código para dizer se o número informado é primo
+45 - Leia o peso de 5 pessoas e mostre o maior e o menor peso digitado
+
+Aula 07:
+46 - Melhore o jogo de advinhação onde o computador "pensa" em um número. Mostre quantos palpites o usuário usou.
+47 - Desenvolva uma mini calculadora em que seja permitido: somar, multiplicar, maior, novos números e sair
+48 - Mostre o fatorial de um número enviado pelo usuário (ex: 5x4x3x2x1) = 120
+49 - Refaça o desafio da PA mostrando os 20 primeiros termos e pergunte ao usuário quantos termos a 
+mais ele quer ver o programa encerra quando disser que quer mostrar 0 termos.
+50 - Faça um algoritmo que leia um número inteiro e mostre os N primeiros algorismos de uma sequência fibonacci.
+51 - Crie um programa que leia idade e sexo de várias pessoas. Depois, mostre:
+A) Quantas pessoas tem mais de 18 anos.
+B) Quantos homens foram cadastrados.
+C) Quantas mulheres tem menos de 20 anos.
