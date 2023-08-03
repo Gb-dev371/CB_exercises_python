@@ -162,75 +162,20 @@ Aula 10:
 60 - Desenvolva uma função que verifique se uma palavra é um palíndromo (ou seja, lida da mesma forma da esquerda para a direita e vice-versa).
 A função deve retornar True se a palavra for um palíndromo e False caso contrário.
 
-
 Aula 11:
-Dificuldade: Fácil
+
+Aula 12:
 61 - Escreva um programa que peça ao usuário para digitar um número inteiro e, em seguida, imprima o dobro desse número.
 Utilize try/except para lidar com a possibilidade de o usuário inserir um valor não numérico.
-
 62 - Crie uma função chamada "divide_numbers" que recebe dois parâmetros numéricos (a e b) e retorna a divisão de a por b.
 Utilize try/except para tratar a divisão por zero.
-
-Dificuldade: Moderada
 63 - Escreva um programa que solicite ao usuário que digite seu nome e sua idade. Em seguida, tente converter a idade em um número inteiro. Se a conversão falhar, informe ao usuário que a idade digitada é
 inválida e continue o programa. Caso contrário, exiba uma mensagem com o nome e a idade.
-
 64 - Crie uma função chamada "read_file" que recebe o nome de um arquivo e tenta abri-lo para leitura.
 Se o arquivo não existir, capture a exceção FileNotFoundError e imprima uma mensagem amigável para o usuário.
-
-Dificuldade: Intermediária
 65 - Escreva um programa que leia um valor numérico inteiro do usuário e imprima o resultado da raiz quadrada desse valor.
 Utilize try/except para lidar com a possibilidade de o usuário inserir um número negativo.
-
 66 - Implemente uma função chamada "get_list_element" que recebe uma lista e um índice como parâmetros.
 A função deve retornar o elemento da lista no índice especificado. Caso o índice esteja fora do intervalo válido,
 capture a exceção IndexError e retorne uma  mensagem indicando que o índice é inválido.
-
-Dificuldade: avançada
-67 - Crie um programa que solicite ao usuário que digite um valor numérico inteiro. Em seguida, tente encontrar o fatorial desse número.
-Em seguida, tente encontrar o fatorial desse número. Utilize try/except para tratar a inserção de valores não inteiros e números negativos.
-
-68 - Implemente uma classe chamada "SafeDict" que estende a funcionalidade de um dicionário comum. A classe deve
-aceitar um valor padrão a ser retornado caso a chave não exista no dicionário, em vez de lançar uma exceçãp KeyError.
-
-Dificuldade: Impossível
-69 - Escreva um programa que solicite ao usuário que insira o nome de um arquivo e uma palavra.
-O programa deve contar quantas vezes a palavra aparece no arquivo e exibir o resultado.
-Utilize try/except para lidar com a possibilidade de o arquivo não existir ou encontrar um erro de leitura.
-
-70 - Crie uma função chamada "recursive_factorial" que calcula o fatorial de um número de forma recursiva. Utilize try/except para
-verificar se o argumento passado é um número inteiro não negativo e lidar com outras exceções que possam surgir durante a recursão.
-
-
-Aula 12:
-71 - 
-
-72 - 
-
-73 - 
-
-Dificuldade: Nem eu fiz
-74 - 
-
-75 - 
-
-76 - 
-
-77 - 
-
-
-Aula 13:
-78 - Classe "Cachorro":
-Crie uma classe chamada "Cachorro" que possua o método __init__ para inicializar as propriedades "nome" e "idade" do cachorro.
-Em seguida, crie um objeto da classe "Cachorro" e imprima o nome e a idade do cachorro.
-
-79 - Classe "Retângulo":
-Crie uma classe chamada "Retângulo" que possua o método
-__init__ para inicializar as propriedades "largura" e "altura"
-do retângulo. Em seguida, crie um objeto da classe "Retângulo"
-e calcule e imprima a área do retângulo.
-
-80 - Classe "Aluno":
-Crie uma classe chamada "Aluno" que possua o método __init__
-para inicializar as propriedades "nome" e "nota" do aluno. 
-Em seguida, crie dois objetos da classe "Aluno" e verifique qual dos dois obteve a maior nota.
+Escreva um programa que solicite ao usuário que insira o nome de um arquivo
