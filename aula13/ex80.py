@@ -4,13 +4,13 @@
 # Em seguida, crie dois objetos da classe "Aluno" e verifique qual dos dois
 # obteve a maior nota.
 
+class Aluno:
+    def __init__(self, nome, nota):
+        self.nome = nome
+        self.nota = nota
+
 
 def main():
-    class Aluno:
-        def __init__(self, nome, nota):
-            self.nome = nome
-            self.nota = nota
-
     aluno1 = Aluno(get_nome(), get_nota())
     aluno2 = Aluno(get_nome(), get_nota())
 
