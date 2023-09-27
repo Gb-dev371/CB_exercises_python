@@ -6,7 +6,7 @@ from functions import *
 def main():
     with open("list.txt", "r") as file:
         completed_text = file.read()
-        words = list(completed_text.split())
+        words = list(completed_text.split("\n"))
     
     user_choice(words)
     separator()
