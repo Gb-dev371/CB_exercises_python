@@ -1,39 +1,37 @@
 # Escreva um programa que permita selecionar um aluno aleatório de um arquivo txt. 
 # Permita que o programa adicione um aluno a lista. Permita que o programa remova um aluno da lista.
 
-import random
+from functions import *
+
+def main():
+    with open("list.txt", "r") as file:
+        completed_text = file.read()
+        words = list(completed_text.split())
+    
+    user_choice(words)
+    separator()
 
 
-def add_name():
-    name = input("What name do you want to add? ")
-    with open("list.txt", "a") as write_word:
-        write_word.write("\n"+name)
-    words.append(name)
+def user_choice(words):
+    while(True):
+        choose = input("What do you want to do?\n1 - To return a random word from the file\n2 - To add a name\n3 - To remove a name\n4 - To exit\n")
+        if(choose == "1"):
+            random_word(words)
+            separator()
+        elif(choose == "2"):
+            add_name(words)
+            separator()
+        elif(choose == "3"):
+            remove_name(words)
+            separator()
+        elif(choose == "4"):
+            print("Bye bye!")
+            break
+        else:
+            print("Invalid answer")
 
-def remove_name():
-    name = input("What name do you want to remove? ")
-    words.remove(str(name))
+if __name__ == "__main__":
+    main()
 
-def palavra_aleatoria():
-    print(f"Palavra selecionada aleatoriamente: {random.choice(words)}")
-
-
-with open("list.txt", "r") as file:
-    completed_text = file.read()
-    words = list(completed_text.split())
-
-add_name()
-remove_name()
-palavra_aleatoria()
-
-
-file_write = open("list.txt", "w")
-file_write.write("")
-
-file_append = open("list.txt", "a")
-for word in words:
-    file_append.write(word+"\n")
-
-# print(words)
 
 
