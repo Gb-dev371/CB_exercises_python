@@ -2,9 +2,9 @@ import random
 
 def add_name(words):
     name = input("What name do you want to add? ")
+    words.append(name)
     with open("list.txt", "a", encoding="utf-8") as write_word:
         write_word.write("\n"+name)
-    words.append(name)
 
 def remove_name(words):
     name = input("What name do you want to remove? ")
